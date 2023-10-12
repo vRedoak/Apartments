@@ -5,6 +5,8 @@ using Microsoft.Extensions.Logging;
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Reflection;
+using System.Runtime.Versioning;
 using System.Threading.Tasks;
 
 namespace Apartments
@@ -14,6 +16,7 @@ namespace Apartments
         public static void Main(string[] args)
         {
             Console.WriteLine("Start");
+            string ver = Assembly.GetEntryAssembly()?.GetCustomAttribute<TargetFrameworkAttribute>()?.FrameworkName;
             CreateHostBuilder(args).Build().Run();
         }
 

@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "ix82E7ulwHlylq60bjTwMBxMxiwaUZuKXWpfe/G5LCf86/DBZuh4R4CkOcH4gJZa7DrrdidPOgCi/0+wpQfMYQ==",
+  "dgSpecHash": "LHLpdwfZTklJHQ98OSOolOSJpCaWi6cx/JGZE3rkCwC0+tc8335guG0uTMspLaWXfZ8PhIt3dWUd/qi0U14SNg==",
   "success": true,
   "projectFilePath": "D:\\MyDevelopments\\Apartments\\Apartments\\Apartments.csproj",
   "expectedPackageFiles": [
@@ -112,11 +112,7 @@
     "C:\\Users\\Viktoria\\.nuget\\packages\\system.xml.readerwriter\\4.3.0\\system.xml.readerwriter.4.3.0.nupkg.sha512",
     "C:\\Users\\Viktoria\\.nuget\\packages\\system.xml.xdocument\\4.3.0\\system.xml.xdocument.4.3.0.nupkg.sha512",
     "C:\\Users\\Viktoria\\.nuget\\packages\\system.xml.xmldocument\\4.3.0\\system.xml.xmldocument.4.3.0.nupkg.sha512",
-    "C:\\Users\\Viktoria\\.nuget\\packages\\system.xml.xmlserializer\\4.3.0\\system.xml.xmlserializer.4.3.0.nupkg.sha512",
-    "C:\\Users\\Viktoria\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\3.1.25\\microsoft.netcore.app.host.win-x64.3.1.25.nupkg.sha512",
-    "C:\\Users\\Viktoria\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\3.1.10\\microsoft.aspnetcore.app.ref.3.1.10.nupkg.sha512",
-    "C:\\Users\\Viktoria\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\3.1.0\\microsoft.windowsdesktop.app.ref.3.1.0.nupkg.sha512",
-    "C:\\Users\\Viktoria\\.nuget\\packages\\microsoft.netcore.app.ref\\3.1.0\\microsoft.netcore.app.ref.3.1.0.nupkg.sha512"
+    "C:\\Users\\Viktoria\\.nuget\\packages\\system.xml.xmlserializer\\4.3.0\\system.xml.xmlserializer.4.3.0.nupkg.sha512"
   ],
   "logs": []
 }

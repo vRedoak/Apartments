@@ -22,8 +22,8 @@ jobs:
         run: |
           if [[ "${GITHUB_REF##*/}" == "master" ]]
           then
-            echo "PACKAGE_VERSION=$VERSION_BASE.$BUILD_NUMBER-alpha" >> $GITHUB_ENV
+            echo "VERSION=$VERSION_BASE.$BUILD_NUMBER-alpha" >> $GITHUB_ENV
           else
-            echo "PACKAGE_VERSION=$VERSION_BASE.$BUILD_NUMBER" >> $GITHUB_ENV
+            echo "VERSION=$VERSION_BASE.$BUILD_NUMBER" >> $GITHUB_ENV
           fi
       - run: echo "🍏 This job's status is ${{ job.status }}."
