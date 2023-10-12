@@ -20,7 +20,7 @@ jobs:
          BUILD_NUMBER: ${{ github.run_number }}
          VERSION_BASE: "1.0"
         run: |
-          if [[ "${GITHUB_REF##*/}" != "master" ]]
+          if [[ "${GITHUB_REF##*/}" == "master" ]]
           then
             echo "PACKAGE_VERSION=$VERSION_BASE.$BUILD_NUMBER-alpha" >> $GITHUB_ENV
           else
