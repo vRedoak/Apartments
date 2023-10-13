@@ -2,6 +2,9 @@
 {
     public class Class1
     {
-        //hiii
+     /*   types:
+        - closed
+      branches:
+        - master*/
     }
 }

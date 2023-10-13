@@ -7,7 +7,7 @@ on:
       branches:
         - master
       paths:
-        - TestLibrary/**
+        - 'TestLibrary/**'
 jobs:
   Explore-GitHub-Actions:
     runs-on: ubuntu-latest
