@@ -1,6 +1,9 @@
 ﻿name: GitHub Actions Demo
 run-name: ${{ github.actor }} is testing out GitHub Actions 🚀
-on: [push]
+on: 
+    pull_request:
+      types:
+        - closed
 jobs:
   Explore-GitHub-Actions:
     runs-on: ubuntu-latest
@@ -22,8 +25,8 @@ jobs:
         run: |
           if [[ "${GITHUB_REF##*/}" == "master" ]]
           then
-            echo "VERSION=$VERSION_BASE.$BUILD_NUMBER-alpha" >> $GITHUB_ENV
+            echo "PACKAGE_VERSION=$VERSION_BASE.$BUILD_NUMBER-alpha" >> $GITHUB_ENV
           else
-            echo "VERSION=$VERSION_BASE.$BUILD_NUMBER" >> $GITHUB_ENV
+            echo "PACKAGE_VERSION=$VERSION_BASE.$BUILD_NUMBER" >> $GITHUB_ENV
           fi
       - run: echo "🍏 This job's status is ${{ job.status }}."
