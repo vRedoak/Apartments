@@ -4,6 +4,10 @@ on:
     pull_request:
       types:
         - closed
+      branches:
+        - master
+      paths:
+        - TestLibrary/**
 jobs:
   Explore-GitHub-Actions:
     runs-on: ubuntu-latest
