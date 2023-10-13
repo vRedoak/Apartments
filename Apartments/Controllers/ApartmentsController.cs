@@ -1,15 +1,10 @@
 ﻿using Apartments.Features.Query;
-using Apartments.Models;
 using Apartments.Models.Apartment;
 using Apartments.Models.Apartment.ViewModels;
 using MediatR;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
-using System;
-using System.Collections.Generic;
-using System.Diagnostics;
-using System.Linq;
 using System.Threading.Tasks;
 
 namespace Apartments.Controllers
