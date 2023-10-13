@@ -40,7 +40,7 @@ namespace Apartments.Controllers
         [ProducesResponseType(typeof(GetApartmentsViewModel), StatusCodes.Status200OK)]
         public async Task<ActionResult<GetApartmentsViewModel>> ApartmentsSearch([FromBody] GetAppartmentsRequest searchRequest, int top = 30, int skip = 0)
         {
-            return await _mediator.Send(new GetAppartmentsQuery(searchRequest, top, skip));
+            return await _mediator.Send(new GetAppartmentsQuery(searchRequest, top, skip)); //random comment
         }
     }
 }
